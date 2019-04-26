@@ -23,8 +23,12 @@ public class HealthCollectible : MonoBehaviour
 
         if (rubyController != null)
         {
-            rubyController.ChangeHealth(1);
-            Destroy(gameObject);
+            if(rubyController.health < rubyController.maxHealth)
+            {
+                rubyController.ChangeHealth(1);
+                Destroy(gameObject);
+            }
+            
         }
     }
 }

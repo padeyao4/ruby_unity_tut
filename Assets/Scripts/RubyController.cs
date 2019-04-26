@@ -7,6 +7,7 @@ public class RubyController : MonoBehaviour
     Rigidbody2D rb;
     public int maxHealth = 5;
     public float speed = 3.0f;
+    public int health { get { return currentHealth; } }
     int currentHealth;
     // Start is called before the first frame update
     void Start()
