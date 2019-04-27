@@ -4425,7 +4425,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 884685257}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 2.56, y: -1.24, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4663,12 +4663,12 @@ PrefabInstance:
     - target: {fileID: 6579427869974694233, guid: 5d1742c350aa439429e54ced28b25f82,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.77
+      value: 5.24
       objectReference: {fileID: 0}
     - target: {fileID: 6579427869974694233, guid: 5d1742c350aa439429e54ced28b25f82,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.62
+      value: 0.16
       objectReference: {fileID: 0}
     - target: {fileID: 6579427869974694233, guid: 5d1742c350aa439429e54ced28b25f82,
         type: 3}
@@ -4732,12 +4732,12 @@ PrefabInstance:
     - target: {fileID: 8738009386655731846, guid: 31ae1bf6c1ef73445b8c0b6fdaaac0e2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.526
+      value: 4.18
       objectReference: {fileID: 0}
     - target: {fileID: 8738009386655731846, guid: 31ae1bf6c1ef73445b8c0b6fdaaac0e2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.476
+      value: -1.05
       objectReference: {fileID: 0}
     - target: {fileID: 8738009386655731846, guid: 31ae1bf6c1ef73445b8c0b6fdaaac0e2,
         type: 3}
@@ -4801,12 +4801,12 @@ PrefabInstance:
     - target: {fileID: 2025946889604370865, guid: 56502ac8d4efb854398e65b13d654d7e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.82
+      value: 4.38
       objectReference: {fileID: 0}
     - target: {fileID: 2025946889604370865, guid: 56502ac8d4efb854398e65b13d654d7e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.57
+      value: -2.88
       objectReference: {fileID: 0}
     - target: {fileID: 2025946889604370865, guid: 56502ac8d4efb854398e65b13d654d7e,
         type: 3}
@@ -4853,9 +4853,54 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2025946889604370865, guid: 56502ac8d4efb854398e65b13d654d7e,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2025946889604370865, guid: 56502ac8d4efb854398e65b13d654d7e,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190879325519701912, guid: 56502ac8d4efb854398e65b13d654d7e,
+        type: 3}
+      propertyPath: m_DrawMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190879325519701912, guid: 56502ac8d4efb854398e65b13d654d7e,
+        type: 3}
+      propertyPath: m_SpriteTileMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190879325519701912, guid: 56502ac8d4efb854398e65b13d654d7e,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 8.03004
+      objectReference: {fileID: 0}
     - target: {fileID: 5765293321437287879, guid: 56502ac8d4efb854398e65b13d654d7e,
         type: 3}
       propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5765293321437287879, guid: 56502ac8d4efb854398e65b13d654d7e,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 2.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 5765293321437287879, guid: 56502ac8d4efb854398e65b13d654d7e,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 2.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 5765293321437287879, guid: 56502ac8d4efb854398e65b13d654d7e,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5765293321437287879, guid: 56502ac8d4efb854398e65b13d654d7e,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.adaptiveTiling
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
